@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto en blanco para contraste */
+    text-align: center;
+}
+
+#container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparente para un efecto elegante */
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 100px; /* Asegúrate de que el logo sea cuadrado para que el efecto circular se aplique bien */
+    height: 100px;
+    border-radius: 50%; /* Esto crea el efecto circular */
+    margin-bottom: 20px;
+    object-fit: cover; /* Esto asegura que la imagen se ajuste al contenedor sin distorsionarse */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* Opcional: Añade una sombra para un efecto elevado */
+}
+
+#main-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 20px;
+    color: #aaa; /* Un color más claro para el pie de página */
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        margin-top: 50px;
+        padding: 10px;
+    }
+    
+    #logo {
+        width: 80px; /* Un tamaño más pequeño para dispositivos móviles */
+        height: 80px;
+    }
+}
