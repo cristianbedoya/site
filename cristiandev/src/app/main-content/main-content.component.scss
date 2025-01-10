@@ -1,0 +1,20 @@
+#professional-summary {
+    h2 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1em;
+    }
+  }
+  
+  #skills {
+    h2 {
+      font-size: 1.5em;
+    }
+    .skills-grid {
+      display: flex;
+      div {
+        margin-right: 20px;
+      }
+    }
+  }
